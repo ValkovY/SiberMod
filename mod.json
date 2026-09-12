@@ -6,7 +6,7 @@
   "subtitle": "Where is it located?",
   "description": "Java mod for Mindustry.",
   "version": "0.1",
-  "minGameVersion": "146",
+  "minGameVersion": "154",
   "java": true,
   "hidden": false
 }
