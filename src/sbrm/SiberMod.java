@@ -1,4 +1,4 @@
-package vm;
+package sbrm;
 
 import arc.Core;
 import arc.Events;
@@ -11,7 +11,7 @@ import mindustry.game.EventType.FileTreeInitEvent;
 import mindustry.gen.Icon;
 import mindustry.mod.Mod;
 import mindustry.mod.Mods.LoadedMod;
-import vm.content.*;
+import sbrm.content.*;
 
 import java.util.Random;
 
@@ -22,11 +22,11 @@ public class MarsiumMod extends Mod {
 
 	@Override
 	public void loadContent() {
-		VMItems.load();
-		VMPlanets.load();
-		VMTechTree.load();
-		VMSectorPresets.load();
-		VMWeathers.load();
-		VMBlocks.load();
+		SBRMItems.load();
+		SBRMPlanets.load();
+		SBRMTechTree.load();
+		SBRMSectorPresets.load();
+		SBRMWeathers.load();
+		SBRMBlocks.load();
 	}
 }
