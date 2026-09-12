@@ -1,11 +1,12 @@
 {
-  "name": "sbrm",
+  "name": "sibermod",
   "displayName": "SiberMod",
   "author": "ValkovY",
   "main": "sbrm.SiberMod",
   "subtitle": "Where is it located?",
   "description": "Java mod for Mindustry.",
   "version": "0.1",
-  "minGameVersion": 150,
-  "hidden": "false"
+  "minGameVersion": "146",
+  "java": true,
+  "hidden": false
 }
