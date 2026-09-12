@@ -1,0 +1,16 @@
+{
+  "build": 146,
+  "name": "Boss Fight Arena",
+  "width": 50,
+  "height": 50,
+  "spawn": [
+    {"x": 25, "y": 25, "team": "sharded"}
+  ],
+  "tiles": [],
+  "units": [],
+  "difficulty": 7,
+  "environment": "space",
+  "allowWaveProgress": true,
+  "allowBuild": true,
+  "sector": "siber-boss-arena"
+}
