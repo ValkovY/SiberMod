@@ -1,6 +1,6 @@
 # SiberMod
 
-Java mod for Mindustry (v146+).
+Java mod for Mindustry (v154).
 
 ## Building
 
