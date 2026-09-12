@@ -1,2 +1,2 @@
-# MarsiumModMindustry
-Java mod for Mindustry on v7
+# Sibermod
+Java mod for Mindustry on v8
