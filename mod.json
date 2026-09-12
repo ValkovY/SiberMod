@@ -1,11 +1,11 @@
 {
-  "name": "vm",
-  "displayName": "MarsiumMod",
+  "name": "sbrm",
+  "displayName": "SiberMod",
   "author": "ValkovY",
-  "main": "vm.MarsiumMod",
+  "main": "sbrm.SiberMod",
   "subtitle": "Where is it located?",
-  "description": "Java mod for Mindustry on v7.",
-  "version": "0.2",
-  "minGameVersion": 140,
+  "description": "Java mod for Mindustry.",
+  "version": "0.1",
+  "minGameVersion": 150,
   "hidden": "false"
 }
