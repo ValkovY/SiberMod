@@ -11,7 +11,7 @@ sourceSets.main.java.srcDirs = ["src"]
 
 repositories{
     mavenCentral()
-    maven{ url 'https://www.jitpack.io' }
+    maven { url = 'https://www.jitpack.io' }
 }
 
 ext{
@@ -71,6 +71,10 @@ task deploy(type: Jar){
     archiveFileName = "${project.archivesBaseName}.jar"
 
     from{ [zipTree("$buildDir/libs/${project.archivesBaseName}Desktop.jar")] }
+    
+    doLast {
+        println "Mod built successfully: $buildDir/libs/${project.archivesBaseName}.jar"
+    }
 }
 
 static def os(){ //Returns OS name
@@ -83,7 +87,7 @@ static def getdatadir(){ //Returns Mindustry data directory path
     if(ret == null){
         def os = os()
         if(os.contains("Windows")){
-            return System.getenv("AppData") + "\\Mindustry\\"
+            return System.getenv("AppData") + "\\\\Mindustry\\\\"
         }else if(os.contains("Linux") || os.contains("BSD")){
             if(System.getenv("XDG_DATA_HOME") != null){
                 String dir = System.getenv("XDG_DATA_HOME")
@@ -98,7 +102,7 @@ static def getdatadir(){ //Returns Mindustry data directory path
     return ret
 }
 
-task mjar(){
+task mjar{
     dependsOn "jar"
     doFirst{}
     ext{
