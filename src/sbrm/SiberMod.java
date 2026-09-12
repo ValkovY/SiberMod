@@ -18,7 +18,7 @@ import java.util.Random;
 import static arc.Core.*;
 import static mindustry.Vars.*;
 
-public class MarsiumMod extends Mod {
+public class SiberMod extends Mod {
 
 	@Override
 	public void loadContent() {
